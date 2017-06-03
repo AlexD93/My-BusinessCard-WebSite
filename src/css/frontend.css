@@ -5537,7 +5537,7 @@ a {
 }
 /* line 57, ../../source/scss/includes/bootstrap/_scaffolding.scss */
 a:hover, a:focus {
-  color: #8DC432;
+  /*color: #8DC432;*/
   text-decoration: none;
 }
 /* line 63, ../../source/scss/includes/bootstrap/_scaffolding.scss */
@@ -5943,7 +5943,7 @@ ol ol {
 .list-inline {
   padding-left: 0;
   list-style: none;
-  margin-left: -5px;
+  margin-left: -7.5px;
 }
 /* line 177, ../../source/scss/includes/bootstrap/_type.scss */
 .list-inline > li {
@@ -8633,7 +8633,7 @@ tbody.collapse.in {
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #fff;
-  background-color: #8EC533;
+  /*background-color: #8EC533;*/
 }
 
 /*.dropdown-menu > .active > a {
@@ -9145,7 +9145,8 @@ tbody.collapse.in {
 }
 /* line 19, ../../source/scss/includes/bootstrap/_navs.scss */
 .nav > li > a {
-  font-weight: normal;
+  font-size: 14pt;
+  font-weight: bold;
   color: #474747;
   background-color: transparent;
   margin: 0;
@@ -9198,11 +9199,11 @@ tbody.collapse.in {
 }
 /* line 91, ../../source/scss/includes/bootstrap/_navs.scss */
 .nav-tabs > li > a:hover {
-  color: #72B601;
+  /*color: #72B601;*/
 }
 /* line 98, ../../source/scss/includes/bootstrap/_navs.scss */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-  color: #8EC533;
+  /*color: #8EC533;*/
   background-color: #fff;
   cursor: default;
 }
@@ -9476,9 +9477,14 @@ tbody.collapse.in {
   float: left;
   padding: 15px 5px 0;
 }
+
+.navbar-brand:hover{
+  color: #18BC9C;
+}
+
 /* line 167, ../../source/scss/includes/bootstrap/_navbar.scss */
 .navbar-brand:hover, .navbar-brand:focus {
-  text-decoration: none;
+  /*text-decoration: none;*/
 }
 /* line 172, ../../source/scss/includes/bootstrap/_navbar.scss */
 .navbar-brand > img {
@@ -9739,12 +9745,12 @@ tbody.collapse.in {
 }
 /* line 398, ../../source/scss/includes/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand {
-  color: #474747;
+  /*color: #474747;*/
 }
 /* line 400, ../../source/scss/includes/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #2e2e2e;
-  background-color: transparent;
+  /*color: #2e2e2e;*/
+  /*background-color: transparent;*/
 }
 /* line 407, ../../source/scss/includes/bootstrap/_navbar.scss */
 .navbar-default .navbar-text {
@@ -9757,12 +9763,12 @@ tbody.collapse.in {
 @media (min-width: 767px) {
   /* line 418, ../../source/scss/includes/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > li:focus, .navbar-default .navbar-nav > li:focus > a, .navbar-default .navbar-nav li > a:focus, .navbar-default .navbar-nav li > a:focus > a {
-    background-color: #8EC533;
+    /*background-color: #8EC533;*/
     color: #fff;
   }
   /* line 423, ../../source/scss/includes/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > li:hover, .navbar-default .navbar-nav > li:hover > a, .navbar-default .navbar-nav li > a:hover, .navbar-default .navbar-nav li > a:hover > a {
-    background-color: #8EC533;
+    /*background-color: #8EC533;*/
     color: #fff;
   }
 }
@@ -9797,7 +9803,7 @@ tbody.collapse.in {
 @media (min-width: 767px) {
   /* line 471, ../../source/scss/includes/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .open, .navbar-default .navbar-nav > .open:hover, .navbar-default .navbar-nav > .open:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    background-color: #8EC533;
+    /*background-color: #8EC533;*/
     color: #fff;
   }
 }
@@ -9837,12 +9843,12 @@ tbody.collapse.in {
 }
 /* line 522, ../../source/scss/includes/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand {
-  color: #e4eaec;
+  /*color: #e4eaec;*/
 }
 /* line 524, ../../source/scss/includes/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
-  color: #fff;
-  background-color: transparent;
+  /*color: #fff;
+  background-color: transparent;*/
 }
 /* line 531, ../../source/scss/includes/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-text {
@@ -9981,7 +9987,7 @@ tbody.collapse.in {
 .pagination > li > span:hover,
 .pagination > li > span:focus {
   z-index: 2;
-  color: #8DC432;
+  /*color: #8DC432;*/
   background-color: #fafafa;
   border-color: #eee;
 }
@@ -16798,6 +16804,7 @@ a:focus,
 a:active,
 a.active {
   color: #18BC9C;
+  transition: all 0.5s;
 }
 
 /* line 25, ../../source/scss/includes/app/media/xs.scss */
@@ -16929,7 +16936,8 @@ header .intro-text .skills {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: white;
+  /*color: white;*/
+  color: #18BC9C
 }
 
 /* line 123, ../../source/scss/includes/app/media/xs.scss */
@@ -16985,14 +16993,14 @@ header .intro-text .skills {
 @media (min-width: 768px) {
   /* line 159, ../../source/scss/includes/app/media/xs.scss */
   .navbar-custom {
-    padding: 25px 0;
+    padding: 10px 0;
     transition: padding 0.3s;
   }
 
   /* line 165, ../../source/scss/includes/app/media/xs.scss */
   .navbar-custom .navbar-brand {
     font-size: 2em;
-    transition: all 0.3s;
+    transition: all 0.5s;
   }
 
   /* line 171, ../../source/scss/includes/app/media/xs.scss */
@@ -17165,7 +17173,7 @@ footer {
 
 /* line 297, ../../source/scss/includes/app/media/xs.scss */
 footer h3 {
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 
 /* line 300, ../../source/scss/includes/app/media/xs.scss */
@@ -17192,7 +17200,7 @@ footer .footer-below {
   border: solid 2px white;
   background: transparent;
   transition: all 0.3s ease-in-out;
-  margin-top: 15px;
+  /*margin-top: 15px;*/
 }
 
 /* line 319, ../../source/scss/includes/app/media/xs.scss */
@@ -17317,7 +17325,7 @@ fieldset[disabled] .btn-success.active {
   border: 2px solid white;
   border-radius: 100%;
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 45px;
 }
 
